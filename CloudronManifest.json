@@ -1,0 +1,25 @@
+{
+  "id": "com.github.vitetj.openvas",
+  "title": "OpenVAS",
+  "author": "vitetj",
+  "description": "OpenVAS/GVM pour Cloudron",
+  "tagline": "Scanner de vulnérabilités OpenVAS",
+  "version": "0.1.1",
+  "upstreamVersion": "latest",
+  "healthCheckPath": "/",
+  "httpPort": 9392,
+  "manifestVersion": 2,
+  "website": "https://greenbone.github.io/docs/latest/",
+  "contactEmail": "support@example.com",
+  "icon": "file://icon.svg",
+  "tags": [
+    "security",
+    "openvas",
+    "vulnerability"
+  ],
+  "memoryLimit": 2147483648,
+  "addons": {
+    "localstorage": {}
+  },
+  "postInstallMessage": "Le premier démarrage peut prendre du temps (initialisation des feeds). Consultez les logs Cloudron pour récupérer le mot de passe admin généré aléatoirement."
+}
